@@ -1,0 +1,470 @@
+@font-face {
+    font-family: Montserrat Light; 
+    src: url(../fonts/Montserrat-Light.ttf);
+    font-weight: bold;
+ 	font-style: normal;
+}
+@font-face {
+    font-family: Montserrat Regular; 
+    src: url(../fonts/Montserrat-Regular.ttf);
+    font-weight: normal;
+ 	font-style: normal;
+}
+@font-face {
+    font-family: Montserrat Semibold; 
+    src: url(../fonts/Montserrat-SemiBold.ttf);
+    font-weight: 400;
+ 	font-style: normal;
+}
+@font-face {
+    font-family: Montserrat Extrabold; 
+    src: url(../fonts/Montserrat-ExtraBold.ttf);
+    font-weight: bold;
+ 	font-style: normal;
+}
+
+
+body {
+	margin: 0 0;
+	padding: 0 0; 
+}
+a, a:hover, a:active {
+	border: none;
+	text-decoration: none;
+}
+ul > li {
+	list-style-type: none;
+}
+h1, h2, h3, h4 {
+	font-family: Montserrat Extrabold;
+}
+.header-wrapper {
+	height: 900px;
+	background: url('../img/background-main-header.png');
+	background-size: cover;
+}
+
+.header-banner {
+	padding: 30px 0;
+}
+.banner-content {
+	position: relative;
+	padding: 30px 0;
+}
+.banner-content_text {
+	margin-top: 250px;
+	color: #fff;
+	font-family: Montserrat Extrabold; 
+	font-size: 50px;
+}
+.banner-content_text-description {
+	font-family: Montserrat Light; 
+	font-size: 30px;
+	color: #fff;
+}
+.banner-content_btn {
+	margin-top: 19px;
+    border-radius: 35px;
+    color: #5219b0;
+    background: #ffffff;
+    padding: 17px 40px;
+    font-family: Montserrat Semibold; 
+    font-size: 16px;
+    font-weight: 500;
+}
+.banner-content-top_point {
+	position: absolute;
+    top: 93px;
+    left: 150px;
+	width: 50px;
+	height: 50px;
+	background: linear-gradient(115deg, #6ad762, #39d980, #11da99);
+	border-radius: 25px;
+	box-shadow: 4px 3px 6px 0px #616a8ac9;
+}
+.banner-content_img {
+	position: relative;
+}
+.banner-content_img:after {
+	content: "";
+	position: absolute;
+    bottom: 56px;
+    left: -10px;
+	width: 60px;
+	height: 60px;
+	background: linear-gradient(115deg, #6ad762, #39d980, #11da99);
+	border-radius: 30px;
+	box-shadow: 4px 3px 6px 0px #616a8ac9;
+}
+.banner-content_img:before {
+	content: "";
+	position: absolute;
+    top: -66px;
+    right: -30px;
+    width: 130px;
+    height: 130px;
+    border: 29px solid #39d980;
+    border-radius: 50%;
+    box-shadow: 4px 3px 6px 0px #616a8ac9;
+}
+.how-connect-apple {
+	margin-bottom: 70px;
+}
+.section_title {
+	margin: 65px 0;
+	text-align: center;
+	font-size: 30px;
+	color: #0042bc;
+}
+.wrapper-about-description_text {
+	max-width: 80%;
+	font-family: Montserrat Regular; 
+	font-size: 18px;
+	line-height: 1.8;
+	color: #3c3d3f;
+}
+.carousel-background{
+	background-image: url('../img/sliders/slider-phone.png');
+	background-size: cover;
+	width: 86%;
+    height: 593px;
+    margin: 0 auto;
+    padding: 0 0;
+}
+.carousel-control-next-icon {
+	background-image: url('../img/arrow-prew.png');
+	height: 40px;
+	transform: rotate(180deg);
+}
+.carousel-control-next-icon:active {
+    background-image: url('../img/arrow-next.png');
+    transform: rotate(360deg);
+}
+.carousel-control-prev,
+.carousel-control-next {
+	position: absolute;
+    height: 50px;
+    top: 44%;
+}
+.carousel-control-prev {
+    left: -50px;
+}
+.carousel-control-next {
+    right: -50px;
+}
+
+
+.carousel-control-prev-icon {
+	background-image: url('../img/arrow-prew.png');
+	height: 40px;
+}
+.carousel-control-prev-icon:active {
+    background-image: url('../img/arrow-next.png');
+    transform: rotate(180deg);
+}
+.carousel-control-next:focus, 
+.carousel-control-next:hover, 
+.carousel-control-prev:focus, 
+.carousel-control-prev:hover {
+	opacity: .5;
+}
+.carousel-item {
+	top: 40px;
+}
+.carousel-item_img {
+	width: auto !important;
+	margin: 0 auto;
+}
+.section_list > li {
+	position: relative;
+	margin-left: 80px;
+}
+.section_list > li > span {
+	position: absolute;
+	left: -80px;
+	background: linear-gradient(#4250f8, #2b38c6);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 8px;
+    font-family: Montserrat Semibold;
+    font-size: 18px;
+    color: #fff;
+}
+.section_list > li > p {
+	margin-top: 20px;
+	margin-bottom: 10px;
+	font-family: Montserrat Regular; 
+	font-size: 18px;
+	color: #3c3d3f;
+	line-height: 1.7;
+}
+.gadget-for-apple {
+	background: #4250f8;
+	color: #fff;
+}
+.gadget-for-apple_items {
+	padding: 50px 0; 
+}
+.gadget-for-apple_icon {
+	margin-right: 20px;
+}
+.order-pay_img {
+	line-height: 200px;
+}
+.order-pay_text {
+	font-family: Montserrat Regular; 
+	font-size: 18px;
+	line-height: 1.5;
+	color: #3c3d3f;
+}
+.panel-heading > a {
+    display: inline-block;
+	width: 100%;
+	position: relative;
+    padding: 17px 0 17px 75px;
+	font-family: Montserrat Semibold;
+	font-size: 18px;
+	color: #3c3d3f;
+}
+.panel-heading > a::before {
+	content: url(../img/arrow-down.png);
+    vertical-align: middle;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+.panel-collapse {
+    background-color: #eff4fb!important;
+    font-family: Montserrat Regular; 
+    font-size: 16px;
+}
+.panel-collapse.px-5 {
+	padding-right: 3rem!important;
+	padding-left: 5rem!important;
+}
+.panel-collapse.rounded-bottom {
+	border-bottom-right-radius: .5rem!important;
+    border-bottom-left-radius: .5rem!important;
+}
+.panel-collapse.collapse{
+	transition: .5s; 
+}
+.form-item {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	padding: 14px 0;
+	text-align: left;
+}
+.form-item > label,
+.form-item > input {
+	flex-grow: 1;
+}
+.form-item > label {
+	width: 37%;
+	margin-bottom: 0;
+    font-family: Montserrat Semibold; 
+	font-size: 18px;
+}
+.form-item > input,
+.form-item > input:hover,
+.form-item > input:active, 
+.form-item > input:focus {
+	border: none;
+	outline: none;
+	border-bottom: 1px solid #3c3d3f;
+}
+.form-item > input {
+	width: 62%;
+	border-bottom: 1px solid #3c3d3f;
+}
+.how-get_card  .text-after-form {
+    font-family: Montserrat Semibold; 
+	font-size: 18px;
+}
+.download-scan_icon a {
+	display: block;
+	background: url('../img/download-scan-icon.png');
+	background-size: cover;
+	width: 40px;
+	height: 53px;
+	cursor: pointer;
+}
+.download-scan_icon a:hover {
+	background: url('../img/download-scan-icon_act.png');
+	background-size: cover;
+}
+.order-card_btn {
+	margin: 22px 0 45px 0;
+    border-radius: 35px;
+    padding: 17px 40px;
+    font-family: Montserrat Semibold; 
+    font-size: 16px;
+    font-weight: 500;
+}
+footer {
+    height: auto;
+    background-color: #eff4fb;
+    margin-top: 70px;
+    position: relative;
+}
+.footer-content_license {
+	font-family: Montserrat Regular; 
+	font-size: 14px;
+	line-height: 1.9;
+	font-weight: bold;
+	color: #3c3d3f;
+	margin-bottom: 0;
+	padding-left: 15px;
+}
+.footer-social_icon img:hover {
+	opacity: .7;
+}
+
+
+/*---------- Media Queries ----------*/
+
+@media screen and (max-width: 1200px) {
+	.carousel-background{
+	    width: 94%;
+	    height: 535px;
+	}
+	.section_list > li {
+	    margin-left: 60px;
+	}
+	.section_list > li > span {
+	    left: -60px;
+	} 
+}
+
+@media screen and (max-width: 992px) {
+	.carousel-background {
+	    width: 100%;
+	    height: 530px;
+	}
+	.carousel-control-prev {
+	    left: -35px;
+	}
+	.carousel-control-next {
+	    right: -35px;
+	}
+	.header-wrapper {
+	    height: auto;
+	    padding: 5px 0 50px 0;
+	}
+	.banner-content_text {
+	    margin-top: 4.5vw;
+	}
+	.section_list > li {
+		margin-left: 35px;
+	}
+    .section_list > li > p {
+	    margin-top: 15px;
+	    font-size: 16px;
+	    line-height: 1.44;
+    }
+	.section_list > li > span {
+	    left: -45px;
+	    width: 33px;
+	    height: 33px;
+	    padding-top: 5px;
+	    font-size: 15px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.section_title {
+        margin: 44px 0;
+    }
+    .section_list > li > p {
+		margin-top: 13px;
+	    font-size: 15px;
+	    line-height: 1.44;
+    }
+    .wrapper-about-description_text {
+	    max-width: 90%;
+	    font-size: 17px;
+	    line-height: 1.55;
+	}
+	.banner-content_text {
+		font-size: 2.2em;
+	}
+	.banner-content_text-description {
+		font-size: 1.4em;
+	}
+	.gadget-for-apple_items {
+		padding: 30px 0;
+	}
+	.gadget-for-apple_items div {
+		margin: 20px 0;
+	}
+	.panel-heading > a,
+	.form-item > label  {
+		font-size: 16px;
+	}
+	.footer-content {
+		padding: 20px 0;
+	}
+	.footer-content_column {
+		margin: 5px 0;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.banner-content_text {
+		font-size: 1.8em;
+	}
+	.banner-content_btn,
+	.order-card_btn {
+	    padding: 13px 30px;
+	    font-size: 15px;
+	}
+	.banner-content_text-description {
+	    font-size: 1.3em;
+	}
+	.gadget-for-apple_items {
+	    padding: 10px 0;
+	}
+	.section_title {
+        margin: 30px 0;
+        font-size: 24px;
+    }
+    .section_list > li {
+	    margin-left: 10px;
+	}
+	.section_list > li > p {
+	    margin-top: 16px;
+	    font-size: 14px;
+        line-height: 1.6;
+	}
+	.section_list > li > span {
+		left: -48px;
+	    width: 33px;
+	    height: 33px;
+	    padding-top: 6px;
+	    font-size: 14px;
+	}
+	.wrapper-about-description_text {
+	    max-width: 90%;
+	    font-size: 16px;
+	    line-height: 1.4;
+	}
+	.form-item {
+		flex-direction: column;
+		padding: 9px 0;
+	}
+	.form-item > label,
+	.form-item > input {
+		width: 100%;
+	}
+}
+
+
+
+
+
+
