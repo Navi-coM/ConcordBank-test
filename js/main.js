@@ -13,7 +13,6 @@ $(function() {
 // ------- Настройки каруселей  ------------
 $('#carouselExampleControls, #carouselExampleControls2').carousel({
   interval: 4000,
-  wrap: false
 });
 
 
